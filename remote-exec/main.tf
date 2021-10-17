@@ -10,9 +10,9 @@ resource "aws_instance" "example" {
   key_name      = aws_key_pair.mykey.key_name
 
   connection {
-    type ="ssh"
-    host = self.public_ip
-    user = "ubuntu"git
+    type        = "ssh"
+    host        = self.public_ip
+    user        = "ubuntu"
     private_key = file(var.PATH_TO_PRIVATE_KEY)
   }
 
