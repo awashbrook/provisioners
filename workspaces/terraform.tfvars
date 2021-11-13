@@ -1,5 +1,0 @@
-AWS_ACCESS_KEY = "AKIAY6GQQQ5OAIVDQNQZ"
-AWS_SECRET_KEY = "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"
-
-AWS_REGION     = "eu-west-1"
-instance_type = "t2.micro"

@@ -1,11 +1,5 @@
-variable "AWS_ACCESS_KEY" {
-}
-
-variable "AWS_SECRET_KEY" {
-}
-
 variable "AWS_REGION" {
-  type = string
+  default = "eu-west-1"
 }
 
 variable "AMIS" {
@@ -30,6 +24,6 @@ variable "INSTANCE_USERNAME" {
 }
 
 variable "instance_type" {
-  # default = "t2.micro"
+  default = "t3.nano"
   type = string
 }
